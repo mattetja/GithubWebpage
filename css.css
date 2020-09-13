@@ -1,3 +1,4 @@
+
 h1 {
     color: black;
     font-family: 'Noto Serif JP', serif;
@@ -14,9 +15,6 @@ p {
 .small {
     width: 30%;
     height: 250px;
-}
-#text{
-    color: red;
 }
 .center {
     display: block;
@@ -41,10 +39,22 @@ a{
     text-decoration: none;
     color: black;
 }
+a:hover{
+    text-decoration: underline;
+}
 .table {
     display: table;
     margin: 0 auto;
 }
 .active {   
     text-decoration: underline;
+}
+@media only screen and (max-width: 600px) {    
+    .medium{
+        width: 90%;                
+    }    
+    .small {
+        width: 70%;
+    }
+    
 }
